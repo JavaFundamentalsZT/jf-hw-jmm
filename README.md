@@ -17,7 +17,7 @@ Keep in mind
  * for one minor collection: time since last collection and bytes freed for young gen
  * for one Full GC: bytes freed for young gen, old gen, total heap size
 * Use max heap size 64M
-* Also submit code for triggering Full GC
+* Also submit code for triggering Full GC (don't use System.gc!)
 * Phantom references are expensive - use 1 per managed object
 * Don’t keep stuff for dead objects
 * Write reasonably efficient code: no Thread#sleep, crazy list iterations, etc.
