@@ -1,4 +1,4 @@
-package hw;
+package org.zeroturnaround.jf.hw;
 
 public class PostCollectionTaskRunnerImpl implements PostCollectionTaskRunner {
 
