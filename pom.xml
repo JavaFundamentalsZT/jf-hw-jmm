@@ -33,7 +33,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>org.zeroturnaround.jf.Application</mainClass>
+              <mainClass>org.zeroturnaround.jf.hw.Application</mainClass>
             </manifest>
           </archive>
         </configuration>
